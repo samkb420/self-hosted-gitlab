@@ -1,5 +1,5 @@
 sudo docker run --detach \
-  --hostname git-uat.oloosirikonschool.sc.ke/ \
+  --hostname git-uat.oloosirikonschool.sc.ke \
   --publish 443:443 --publish 80:80 --publish 22:22 \
   --name gitlab \
   --restart always \
